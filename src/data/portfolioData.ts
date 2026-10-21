@@ -4,18 +4,18 @@ export const KOFI_URL = 'https://ko-fi.com/soulfrya';
 
 export const SOULFIRE_BIO = {
   name: 'Soulfire',
-  title: 'Systems Programmer & Security Researcher',
+  title: 'Student Systems Programmer & Amateur Cybersecurity Researcher',
   tagline: 'Engineering capability-based microkernels, software-defined network simulators, real-time graphics engines, and low-latency audio pipelines.',
   summary:
     'Independent systems engineer and security researcher specializing in bare-metal architectures, defensive network operations, and high-performance computing. Focused on verified capability-secure microkernels, software-defined networking sandboxes, custom graphics and audio DSP pipelines, and language compilers.',
   skills: [
     {
       category: 'Systems & Architecture',
-      items: ['Rust (#![no_std])', 'x86-64 Assembly', 'C / C++17', 'Microkernel Design (seL4)', 'UEFI / Bootstrapping'],
+      items: ['Rust (#![no_std])', 'x86-64 Assembly', 'C / C++17', 'Microkernel Design (seL4-inspo)', 'UEFI / Bootstrapping', 'Capability OS'],
     },
     {
       category: 'Cybersecurity & Networks',
-      items: ['Software-Defined Networking', 'Threat Vector Insulation', 'Packet Analysis', 'Sigma Detection Rules', 'Incident Response'],
+      items: ['Software-Defined Networking', 'Threat Vector Insolation', 'Packet Analysis', 'Sigma Detection Rules', 'Incident Response', 'System Administration', 'Tier 1 SOC Analysis', 'Jr. Penetration Tes5ing'],
     },
     {
       category: 'Graphics & Audio DSP',
