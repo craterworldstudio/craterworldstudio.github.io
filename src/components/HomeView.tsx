@@ -35,7 +35,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
               CRATER WORLD STUDIOS
             </h1>
             <p className="leading-relaxed mb-8 text-sm md:text-base text-gray-300 max-w-2xl mx-auto">
-              Independent Systems Programming, Defensive Security Research, and Core Computational Tooling. <br />
+              Independent Systems Programming, Defensive Security Research, and Core Computational Tooling. <br/>
               <span className="text-cyan-400 font-medium">Precision · Performance · Verifiable Architecture</span>
             </p>
             <div className="flex flex-wrap justify-center gap-4">
@@ -76,7 +76,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-gray-800">
             <div>
               <div className="text-xs uppercase tracking-widest text-cyan-400 font-mono mb-1">
-                Principal Engineer & Researcher
+                 Student Engineer & Researcher
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-white tracking-wide">
                 {SOULFIRE_BIO.name}
@@ -98,7 +98,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
               </a>
 
               <span className="text-xs font-mono text-cyan-300 bg-cyan-950/60 px-3 py-1.5 rounded-lg border border-cyan-800/60">
-                Independent Systems Lab
+                Independent (Appr.) System Designer
               </span>
             </div>
           </div>
