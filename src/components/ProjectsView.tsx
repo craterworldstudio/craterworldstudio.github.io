@@ -28,7 +28,7 @@ export const ProjectsView: React.FC<ProjectsViewProps> = ({
     }
   }
 
-  const categories = ['All', 'Cybersecurity', 'Game Dev / Graphics', 'Operating Systems'];
+  const categories = ['All', 'Systems & OS', 'Cybersecurity', 'Languages & Compilers', 'Game Dev / Graphics', 'Audio & DSP'];
 
   const filteredProjects = PROJECTS_DATA.filter((p) => {
     if (selectedCategory === 'All') return true;
@@ -41,13 +41,13 @@ export const ProjectsView: React.FC<ProjectsViewProps> = ({
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div className="space-y-2">
           <div className="text-xs font-mono uppercase tracking-widest text-cyan-400">
-            Portfolio & Projects
+            Portfolio & Systems
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-white">
-            Software & Security Projects
+            Engineering Projects & Repositories
           </h1>
           <p className="text-sm text-gray-300 max-w-xl">
-            Open-source repositories, interactive SOC simulations, bare-metal experiments, and graphics engines developed by Soulfire.
+            Capability-secure microkernels, interactive SOC simulation environments, low-latency audio pipelines, compilers, and graphics engines engineered by Soulfire.
           </p>
         </div>
 

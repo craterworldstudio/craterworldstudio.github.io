@@ -38,7 +38,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab }) => {
             className="w-9 h-9 object-contain filter drop-shadow-[0_0_8px_rgba(0,255,255,0.4)] group-hover:scale-105 transition-transform"
           />
           <span className="ml-3 font-bold text-lg tracking-wider text-gray-100 group-hover:text-cyan-300 transition-colors whitespace-nowrap">
-            ◥ CRATER ❆WORLD❆ STUDIO ◤
+            CRATER WORLD STUDIO
           </span>
         </button>
 

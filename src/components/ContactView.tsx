@@ -66,7 +66,7 @@ export const ContactView: React.FC = () => {
           Feedback & Contact
         </h1>
         <p className="text-sm text-gray-300">
-          Have feedback on a project, want to discuss cybersecurity research, or connect with Soulfire directly? Drop a message below.
+          Have technical feedback, want to discuss systems architecture or security research, or connect with Soulfire directly? Send a message below.
         </p>
       </div>
 
@@ -190,7 +190,7 @@ export const ContactView: React.FC = () => {
               <h3 className="text-base font-bold text-white">Support on Ko-fi</h3>
             </div>
             <p className="text-xs text-gray-300 leading-relaxed">
-              Enjoying Cyber Hazard Lab, Who Was Here?, or my other open-source projects? You can support my ongoing studies and server hosting costs on Ko-fi.
+              Support independent systems development, ongoing defensive security research, and hosting infrastructure for lab simulations on Ko-fi.
             </p>
             <a
               href={KOFI_URL}

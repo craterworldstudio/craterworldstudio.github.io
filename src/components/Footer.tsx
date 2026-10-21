@@ -18,10 +18,10 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
             <span className="text-base font-bold text-gray-200 tracking-wider">
               Soulfire
             </span>
-            <span className="text-xs text-gray-500 font-mono">· Solo Developer & Cybersecurity</span>
+            <span className="text-xs text-gray-400 font-mono">· Systems & Security Research</span>
           </div>
           <p className="text-xs text-gray-400 max-w-sm">
-            Keep Things Fast, convenient and safe. Independent software engineering, SOC simulations, and defensive tools.
+            Verifiable systems engineering, low-level architecture, defensive security simulations, and computational audio.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
             © 2021–2026 <strong className="text-gray-300">Soulfire</strong> · CraterWorld. All rights reserved.
           </p>
           <div className="flex items-center gap-3">
-            <span>Fast · Convenient · Safe</span>
+            <span>Precision · Performance · Security</span>
           </div>
         </div>
       </div>

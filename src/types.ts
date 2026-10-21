@@ -4,7 +4,7 @@ export interface Project {
   id: string;
   name: string;
   title: string;
-  category: 'Cybersecurity' | 'Game Dev / Graphics' | 'Operating Systems' | 'Tools';
+  category: 'Cybersecurity' | 'Systems & OS' | 'Game Dev / Graphics' | 'Languages & Compilers' | 'Audio & DSP' | 'Tools';
   tagline: string;
   description: string;
   status: 'Active' | 'Completed' | 'In Progress' | 'Stable';

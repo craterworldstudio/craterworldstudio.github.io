@@ -31,12 +31,12 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
           </div>
 
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white tracking-wide">
-              Welcome to <br /> CRATER❆WORLD❆STUDIOS
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-white tracking-wider">
+              CRATER WORLD STUDIOS
             </h1>
-            <p className="leading-relaxed mb-8 text-sm md:text-base text-gray-300">
-              We together will make a world full of Fun and Entertainment to make everyone happy! <br />
-              <span className="text-cyan-300 font-semibold">Keep Things Fast , convienient and safe!</span>
+            <p className="leading-relaxed mb-8 text-sm md:text-base text-gray-300 max-w-2xl mx-auto">
+              Independent Systems Programming, Defensive Security Research, and Core Computational Tooling. <br />
+              <span className="text-cyan-400 font-medium">Precision · Performance · Verifiable Architecture</span>
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <button
@@ -76,12 +76,12 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-gray-800">
             <div>
               <div className="text-xs uppercase tracking-widest text-cyan-400 font-mono mb-1">
-                Developer Profile · Solo Creator
+                Principal Engineer & Researcher
               </div>
-              <h2 className="text-2xl md:text-3xl font-bold text-white">
+              <h2 className="text-2xl md:text-3xl font-bold text-white tracking-wide">
                 {SOULFIRE_BIO.name}
               </h2>
-              <p className="text-sm text-cyan-300 mt-0.5">
+              <p className="text-sm text-cyan-300 mt-0.5 font-medium">
                 {SOULFIRE_BIO.title}
               </p>
             </div>
@@ -97,8 +97,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
                 <span>Support on Ko-fi</span>
               </a>
 
-              <span className="text-xs font-mono text-gray-400 bg-gray-800 px-3 py-1.5 rounded-lg border border-gray-700">
-                1-Man Team
+              <span className="text-xs font-mono text-cyan-300 bg-cyan-950/60 px-3 py-1.5 rounded-lg border border-cyan-800/60">
+                Independent Systems Lab
               </span>
             </div>
           </div>
@@ -110,7 +110,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
                 {SOULFIRE_BIO.summary}
               </p>
               <p className="text-gray-400 text-sm leading-relaxed">
-                All projects are independently engineered from conception to deployment. My current focus centers on <strong>Cyber Hazard Lab</strong> (an interactive SOC and network simulator with live telemetry), <strong>Who Was Here?</strong> (an incident response CLI challenge), bare-metal systems, and graphics engines.
+                All software architectures are independently designed, implemented, and verified from first principles. Primary engineering initiatives encompass <strong>AxiomOS</strong> (a capability-based microkernel in Rust and Assembly), <strong>Cyber Hazard Lab</strong> (a software-defined network simulation and SOC platform), <strong>myVoice</strong> (real-time low-latency DSP and AI voice conversion), <strong>Greko Engine</strong> (high-performance 3D VRM graphics), <strong>Helios</strong> (distributed game server compiler), and <strong>Who Was Here?</strong> (incident response investigation).
               </p>
             </div>
 
@@ -153,7 +153,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
           <div>
             <h3 className="text-2xl font-bold text-white">Featured Projects</h3>
             <p className="text-xs md:text-sm text-gray-400">
-              Interactive cybersecurity sandbox, incident response games, and low-level tools.
+              Capability-secure microkernels, interactive SOC simulation environments, low-latency DSP audio engines, and modern graphics.
             </p>
           </div>
           <button
@@ -166,7 +166,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSelectTab, onSelectProject
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {PROJECTS_DATA.slice(0, 2).map((proj) => (
+          {PROJECTS_DATA.slice(0, 4).map((proj) => (
             <div
               key={proj.id}
               className="p-6 bg-gray-900/90 border border-gray-800 rounded-2xl hover:border-cyan-500/40 transition-colors flex flex-col justify-between shadow-lg"
