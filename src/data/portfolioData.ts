@@ -167,6 +167,18 @@ export const PROJECTS_DATA: Project[] = [
 ];
 
 export const NEWS_DATA: NewsItem[] = [
+  
+  {
+    id: 'chl-teaser-launch-1',
+    title: 'CyberHAZARD Lab Teaser Launch (1/3)',
+    date: 'November 2026',
+    category: 'Announcement',
+    snippet:
+      'Part 1 of the official teaser trilogy is live, highlighting the interactive sandbox environment designed for system administrators and network engineers.',
+    content:
+      'Crater World Studio and Soulfrya are proud to present the first look at CyberHAZARD Lab. This initial teaser drops you straight into the construction kit—showcasing the interactive grid sandbox where users can build complex multi-node topologies, configure routing pathways, and analyze active network behavior. This release marks the first entry of a three-part module showcase designed to demonstrate the full cycle of infrastructure building, offensive security testing, and defensive SOC monitor operations.\nTrailer: https://youtube.com/watch?v=kveJ2AUJEVw&si=LM8O2D_tVPwyxW7-',
+    readTime: '1 min read',
+  },
   {
     id: 'news-relaunch',
     title: 'CraterWorld Platform Architecture & Systems Showcase',
@@ -176,17 +188,6 @@ export const NEWS_DATA: NewsItem[] = [
       'The engineering portfolio has been upgraded to showcase active systems projects across operating systems, security labs, graphics, and audio DSP.',
     content:
       'Welcome to the updated CraterWorld and Soulfire technical showcase. The platform features in-depth documentation and source repositories across six core engineering domains: AxiomOS (Rust capability-based microkernel), Cyber Hazard Lab (isolated SOC network simulator), Who Was Here? (incident response CLI investigation), Greko Engine (C++17/OpenGL 4.3 VRM renderer), Helios (distributed server programming language), and myVoice (real-time low-latency audio DSP and RVC voice conversion pipeline).',
-    readTime: '2 min read',
-  },
-  {
-    id: 'chl-teaser-launch-1',
-    title: 'CyberHAZARD Lab Teaser Launch (1/3)',
-    date: 'November 2026',
-    category: 'Announcement',
-    snippet:
-      'Part 1 of the official teaser trilogy is live, highlighting the interactive sandbox environment designed for system administrators and network engineers.',
-    content:
-      'Crater World Studio and Soulfrya are proud to present the first look at CyberHAZARD Lab. This initial teaser drops you straight into the construction kit—showcasing the interactive grid sandbox where users can build complex multi-node topologies, configure routing pathways, and analyze active network behavior. This release marks the first entry of a three-part module showcase designed to demonstrate the full cycle of infrastructure building, offensive security testing, and defensive SOC monitor operations.',
     readTime: '2 min read',
   },
 ];
