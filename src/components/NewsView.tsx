@@ -2,6 +2,32 @@ import React from 'react';
 import { NEWS_DATA } from '../data/portfolioData';
 import { Calendar, Clock, Newspaper, Sparkles } from 'lucide-react';
 
+const LinkifiedText: React.FC<{ text: string }> = ({ text }) => {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const parts = text.split(urlRegex);
+
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (part.match(urlRegex)) {
+          return (
+            <a
+              key={index}
+              href={part}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-400 hover:text-cyan-300 hover:underline break-all transition-colors duration-200"
+            >
+              {part}
+            </a>
+          );
+        }
+        return part;
+      })}
+    </>
+  );
+};
+
 export const NewsView: React.FC = () => {
   return (
     <div className="pt-24 md:pt-28 pb-16 px-6 max-w-3xl mx-auto space-y-10 text-left animate-fadeIn">
@@ -44,16 +70,16 @@ export const NewsView: React.FC = () => {
               {article.title}
             </h2>
 
-            <p className="text-sm text-gray-300 leading-relaxed">
-              {article.content}
+            <p className="text-sm text-gray-300 leading-relaxed whitespace-pre-line">
+              <LinkifiedText text={article.content} />
             </p>
 
             <div className="pt-4 border-t border-gray-800/80 flex items-center justify-between text-xs text-gray-500">
               <span className="inline-flex items-center gap-1.5 text-cyan-400">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Site Relaunch Template</span>
+                <span>News4You</span>
               </span>
-              <span>Soulfire · CraterWorld</span>
+              <span>Soulfryae · CraterWorldStudio</span>
             </div>
           </article>
         ))}
